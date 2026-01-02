@@ -3,3 +3,4 @@ __pycache__/
 *.safetensors
 *.ckpt
 output_*.png
+llama.cpp-macOS26-metal/
