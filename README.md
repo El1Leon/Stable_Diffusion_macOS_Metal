@@ -18,7 +18,7 @@ This project is based on 🤗 Hugging Face **diffusers** and uses a simple `gene
 
 ## 🔧 Requirements
 
-- macOS **13.1+**
+- macOS **26+**
 - Apple Silicon (M1, M2, or M3)
 - Python **3.10+**
 - Xcode Command Line Tools
