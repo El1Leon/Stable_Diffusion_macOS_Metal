@@ -24,14 +24,13 @@ This project is based on 🤗 Hugging Face **diffusers** and uses a simple `gene
 - Xcode Command Line Tools
 - `pip` and `virtualenv`
 
-Install Xcode Command Line Tools if needed:
+Install Xcode CLI tools if needed:
 
-```bash
+## bash
 xcode-select --install
 
 ## ⚙️ Setup Instructions
 
-```bash
 # Clone this repository
 git clone https://github.com/El1Leon/Stable_Diffusion_macOS_Metal.git
 cd Stable_Diffusion_macOS_Metal
@@ -46,13 +45,12 @@ pip install --upgrade pip
 # Install dependencies
 pip install -r requirements.txt
 
----
 
 ## 🖼️ Generating Images with `generate.py`
 
 Once everything is installed, run:
 
-```bash
+## bash
 python generate.py
 
 
