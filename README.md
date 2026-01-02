@@ -1,31 +1,30 @@
-# Stable Diffusion on macOS (Metal Accelerated)
+# Stable Diffusion on macOS with Metal Acceleration
 
-This project demonstrates how to run **Stable Diffusion XL** locally on macOS using **Metal (MPS)** acceleration via PyTorch. It's optimized for Apple Silicon (M1/M2/M3) Macs.
+Run **Stable Diffusion XL (SDXL)** natively on Apple Silicon Macs (M1 / M2 / M3) using **PyTorch with Metal (MPS) acceleration**.
 
-## ✨ Features
+This project is based on 🤗 Hugging Face **diffusers** and uses a simple `generate.py` script to prompt and generate images locally on macOS.
 
-- ✅ Apple Metal backend (MPS) support
-- ✅ SDXL image generation using Hugging Face’s `diffusers`
-- ✅ Works without CUDA or external GPU
-- ✅ Offline capable after model download
+---
 
-## 🧠 Requirements
+## 🚀 What This Project Does
 
-- macOS 13+ (Apple Silicon preferred)
-- Python 3.10+
+- Runs Stable Diffusion **locally** on macOS  
+- Uses **Apple Metal (MPS)** instead of CUDA  
+- Prompts for text input directly in the terminal  
+- Saves generated images automatically  
+- Works offline after first model download  
+
+---
+
+## 🔧 Requirements
+
+- macOS **13.1+**
+- Apple Silicon (M1, M2, or M3)
+- Python **3.10+**
 - Xcode Command Line Tools
-- [Hugging Face account](https://huggingface.co)
+- `pip` and `virtualenv`
 
-## 🔧 Setup
+Install Xcode Command Line Tools if needed:
 
 ```bash
-# Clone the repo
-git clone https://github.com/El1Leon/Stable_Diffusion_macOS_Metal.git
-cd Stable_Diffusion_macOS_Metal
-
-# Create virtual environment
-python3 -m venv .venv
-source .venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
+xcode-select --install
