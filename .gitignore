@@ -68,7 +68,10 @@ __pycache__/
 *.ckpt
 output_*.png
 
+
 llama.cpp-macOS26-metal/
 
 (Add .gitignore)
 (Add generate.py and setup instructions)
+llama.cpp-macOS26-metal/
+(Ignore llama.cpp-macOS26-metal submodule)
